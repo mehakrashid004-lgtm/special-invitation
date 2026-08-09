@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Question For You 🤍</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Background decorations -->
+    <div class="background">
+
+        <span class="blob blob1"></span>
+        <span class="blob blob2"></span>
+
+        <span class="floating-heart heart1">♡</span>
+        <span class="floating-heart heart2">♡</span>
+        <span class="floating-heart heart3">♡</span>
+        <span class="floating-heart heart4">♡</span>
+        <span class="floating-heart heart5">♡</span>
+
+    </div>
+
+
+    <!-- =================================
+         PAGE 1
+    ================================== -->
+
+    <section class="page active" id="page1">
+
+        <div class="invitation-card">
+
+            <div class="envelope-icon">
+                💌
+            </div>
+
+            <p class="tiny-title">
+                A LITTLE INVITATION
+            </p>
+
+            <h1>
+                Please come<br>
+                outside with us.
+            </h1>
+
+            <p class="description">
+                It honestly won't be the same
+                without you there for me yk . 🤍
+            </p>
+
+            <div class="question">
+                So... are you coming?
+            </div>
+
+
+            <div class="main-buttons">
+
+                <button
+                    class="yes-button"
+                    id="yesButton">
+
+                    YES, I'LL COME ♡
+
+                </button>
+
+                <button
+                    class="no-button"
+                    id="noButton">
+
+                    NO
+
+                </button>
+
+            </div>
+
+            <p class="little-note" id="noMessage"></p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 2 — DATE
+    ================================== -->
+
+    <section class="page" id="page2">
+
+        <div class="invitation-card">
+
+            <div class="page-icon">
+                📅
+            </div>
+
+            <p class="tiny-title">
+                STEP 01 OF 02
+            </p>
+
+            <h1>
+                Pick a day
+            </h1>
+
+            <p class="description">
+                Choose a day that works best
+                for you. apki marzi sy jayengy... 🤍
+            </p>
+
+
+            <div class="date-box">
+
+                <label for="dateInput">
+                    YOUR CHOSEN DATE
+                </label>
+
+                <input
+                    type="date"
+                    id="dateInput">
+
+            </div>
+
+
+            <div class="selected-preview"
+                 id="datePreview">
+
+                Select a date above ♡
+
+            </div>
+
+
+            <button
+                class="next-button"
+                id="dateNext">
+
+                NEXT →
+                
+            </button>
+
+
+            <button
+                class="back-button"
+                id="dateBack">
+
+                ← Go back
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 3 — TIME
+    ================================== -->
+
+    <section class="page" id="page3">
+
+        <div class="invitation-card">
+
+            <div class="page-icon">
+                🕐
+            </div>
+
+            <p class="tiny-title">
+                STEP 02 OF 02
+            </p>
+
+            <h1>
+                Pick a time
+            </h1>
+
+            <p class="description">
+                And what time should we
+                meet? ✨
+            </p>
+
+
+            <div class="date-summary">
+
+                <span>YOUR DAY</span>
+
+                <strong id="chosenDate">
+                    —
+                </strong>
+
+            </div>
+
+
+            <div class="date-box">
+
+                <label for="timeInput">
+                    YOUR CHOSEN TIME
+                </label>
+
+                <input
+                    type="time"
+                    id="timeInput">
+
+            </div>
+
+
+            <div class="karachi-clock">
+
+                <span>
+                    🇵🇰 CURRENT KARACHI TIME
+                </span>
+
+                <strong id="karachiTime">
+                    --
+                </strong>
+
+            </div>
+
+
+            <button
+                class="next-button"
+                id="confirmButton">
+
+                MAKE IT OFFICIAL ♡
+
+            </button>
+
+
+            <button
+                class="back-button"
+                id="timeBack">
+
+                ← Change day
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================
+         PAGE 4 — FINAL
+    ================================== -->
+
+    <section class="page" id="page4">
+
+        <div class="invitation-card final-card">
+
+            <div class="success-heart">
+                ♡
+            </div>
+
+            <p class="tiny-title">
+                IT'S OFFICIAL
+            </p>
+
+            <h1>
+                It's a plan! 🎀
+            </h1>
+
+            <p class="description">
+                You chose...
+            </p>
+
+
+            <div class="final-details">
+
+                <div class="final-item">
+
+                    <span>📅</span>
+
+                    <div>
+                        <small>DAY</small>
+                        <strong id="finalDate">—</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="final-item">
+
+                    <span>🕐</span>
+
+                    <div>
+                        <small>TIME</small>
+                        <strong id="finalTime">—</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <p class="final-message">
+                Now there's officially no excuse
+                for forgetting. yayyyyyy ilysmmm janeman 😭🤍
+            </p>
+
+            <div class="sparkles">
+                ✦ ♡ ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
